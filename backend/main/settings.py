@@ -41,6 +41,12 @@ INSTALLED_APPS = [
     # myApps
     'blog',
     'user',
+
+    # 3rd party
+    'rest_framework',
+    'rest_framework.authtoken',
+    'dj_rest_auth',
+    'django_extensions',
 ]
 
 MIDDLEWARE = [
